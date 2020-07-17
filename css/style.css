@@ -1,0 +1,698 @@
+* {
+
+	margin:0px;
+
+	padding:0px;
+
+	box-sizing: border-box;
+
+	font-family: "Poppins", sans-serif;
+
+}
+
+/*===================Genie Start=========================*/
+
+.logo {
+
+	text-align: center;
+
+    background: seagreen;
+
+    width: 100%;
+
+    height: 50px;
+
+}
+
+.logo img {
+
+	padding-top: 8px;
+
+    cursor: pointer;
+
+}
+
+/*================Genie Nav Bar================================*/
+
+p {
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 1.1em;
+
+    font-weight: 300;
+
+    line-height: 1.7em;
+
+    color: #999;
+
+}
+
+a,
+
+a:hover,
+
+a:focus {
+
+    color: inherit;
+
+    text-decoration: none;
+
+    transition: all 0.3s;
+
+}
+
+.navbar {
+
+    padding: 15px 10px;
+
+    background: #fff;
+
+    border: none;
+
+    border-radius: 0;
+
+    margin-bottom: 40px;
+
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.navbar-btn {
+
+    box-shadow: none;
+
+    outline: none !important;
+
+    border: none;
+
+}
+
+.line {
+
+    width: 100%;
+
+    height: 1px;
+
+    border-bottom: 1px dashed #ddd;
+
+    margin: 40px 0;
+
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+
+    display: flex;
+
+    width: 100%;
+
+    align-items: stretch;
+
+}
+
+#sidebar {
+
+    min-width: 250px;
+
+    max-width: 250px;
+
+    background: #7386D5;
+
+    color: #fff;
+
+    transition: all 0.3s;
+
+}
+
+#sidebar.active {
+
+    margin-left: -250px;
+
+}
+
+#sidebar .sidebar-header {
+
+    padding: 20px;
+
+    background: #6d7fcc;
+
+}
+
+#sidebar .sidebar-header img {
+
+	cursor: pointer;
+
+}
+
+#sidebar ul.components {
+
+    padding: 20px 0;
+
+    border-bottom: 1px solid #47748b;
+
+}
+
+#sidebar ul p {
+
+    color: #fff;
+
+    padding: 10px;
+
+    cursor: pointer;
+
+}
+
+#sidebar ul li a {
+
+    padding: 10px;
+
+    font-size: 1.1em;
+
+    display: block;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+}
+
+#sidebar ul li a:hover {
+
+    color: #7386D5;
+
+    background: #fff;
+
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+
+    color: #fff;
+
+    background: #6d7fcc;
+
+}
+
+a[data-toggle="collapse"] {
+
+    position: relative;
+
+}
+
+.dropdown-toggle::after {
+
+    display: block;
+
+    position: absolute;
+
+    top: 50%;
+
+    right: 20px;
+
+    transform: translateY(-50%);
+
+}
+
+ul ul a {
+
+    font-size: 0.9em !important;
+
+    padding-left: 30px !important;
+
+    background: #6d7fcc;
+
+}
+
+ul.CTAs {
+
+    padding: 20px;
+
+}
+
+ul.CTAs a {
+
+    text-align: center;
+
+    font-size: 0.9em !important;
+
+    display: block;
+
+    border-radius: 5px;
+
+    margin-bottom: 5px;
+
+}
+
+a.download {
+
+    background: #fff;
+
+    color: #7386D5;
+
+}
+
+a.article,
+a.article:hover {
+
+    background: #6d7fcc !important;
+
+    color: #fff !important;
+
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+
+    width: 100%;
+
+    padding: 20px;
+
+    min-height: 100vh;
+
+    transition: all 0.3s;
+
+}
+
+/*===========================Menu-Bar=====================*/
+
+
+.menu-bar {
+
+	font-size: 20px;
+
+    font-weight: 600;
+
+}
+
+.menu-bar .swlink {
+
+ color: #ffffff!important;
+
+ font-weight: 700;
+
+}
+
+.omoyoji-link {
+
+	transition: .3s;
+
+}
+
+.omoyoji-link:hover {
+
+	background:#007bff;
+
+	border-radius: 5px;
+
+	font-weight: 700;
+
+
+}
+
+.omoyoji-link a:hover {
+
+	color: #ffffff!important;
+
+}
+
+.hyperhero-link {
+
+	transition: .3s;
+
+}
+
+.hyperhero-link:hover {
+
+	background:#007bff;
+
+	border-radius: 5px;
+
+	font-weight: 700;
+
+
+}
+
+.hyperhero-link a:hover {
+
+	color: #ffffff!important;
+
+}
+
+.threekingdom-link {
+
+	transition: .3s;
+
+}
+
+.threekingdom-link:hover {
+
+	background:#007bff;
+
+	border-radius: 5px;
+
+	font-weight: 700;
+
+
+}
+
+.threekingdom-link a:hover {
+
+	color: #ffffff!important;
+
+}
+
+/*===========================Fire Type ==============================*/
+
+.ifrit-fire {
+
+	background-image: url("../images/fire.png");
+
+	width: 100%;
+
+    height: 600px;
+
+    background-repeat: no-repeat;
+    
+    background-position: center;
+
+}
+
+.stars i {
+
+	color: #EC9F00;
+
+	cursor: pointer;
+
+}
+
+.all-stats h5 {
+
+	font-weight: 600;
+
+	cursor: pointer;
+
+}
+
+.medium {
+
+	display: inline-block;
+
+}
+
+.medium span {
+
+	color: #ffffff;
+
+    position: absolute;
+
+    left: 37px;
+
+    bottom: 10px;
+
+    text-shadow: -2px -1px 2px #000;
+
+    font-weight: 700;
+
+}
+
+.high {
+
+	display: inline-block;
+
+}
+
+.high span {
+
+	color: #ffffff;
+
+    position: absolute;
+
+    left: 65px;
+
+    bottom: 10px;
+
+    text-shadow: -2px -1px 2px #000;
+    
+    font-weight: 700;
+
+}
+
+.medium-fire {
+
+	display: inline-block;
+
+
+} 
+
+.medium-fire span {
+
+	color: #ffffff;
+
+    position: absolute;
+
+    left: 100px;
+
+    bottom: 10px;
+
+    text-shadow: -2px -1px 2px #000;
+    
+    font-weight: 700;
+
+}
+
+.high-fire{
+
+	display: inline-block;
+	
+
+} 
+
+.high-fire span {
+
+	color: #ffffff;
+
+    position: absolute;
+
+    right:77px;
+
+    bottom: 10px;
+
+    text-shadow: -2px -1px 2px #000;
+    
+    font-weight: 700;
+
+}
+
+
+
+/*=====================================================================*/
+
+/*=====================Omoyoji=====================*/
+
+.tamamo {
+
+	background-image: url("../images/tamamoawaken.png");
+
+	width: 100%;
+
+	height: 600px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+}
+
+/*======================HyperHero================*/
+
+.anubis {
+
+	background-image: url("../images/anubis.png");
+
+	width: 100%;
+
+	height: 600px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+}
+
+/*==================threekingdom========================*/
+
+.lubu {
+
+	background-image: url("../images/lubu.png");
+
+	width: 100%;
+
+	height: 600px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+}
+
+
+/*==========================GEnie footer=================*/
+
+.genie-footer {
+
+	background: seagreen;
+
+	padding-top: 45px;
+
+	padding-bottom: 45px;
+
+	position: relative;
+
+
+}
+
+
+
+.footer-link h5 {
+
+	color: #ffffff;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+
+}
+
+.footer-link ul {
+
+	
+	list-style: none;
+
+}
+
+.footer-link ul li {
+
+	display: inline-block;
+
+	float: left;
+
+	padding-right:15px;
+
+	cursor: pointer;
+
+	
+
+}
+
+.footer-link ul li i:hover {
+
+	color:blue;
+
+}
+
+.footer-link ul li i {
+
+	font-size:20px;
+
+	color: #ffffff;
+
+	transition: .3s;
+
+}
+
+.footer-setting ul {
+
+	color: #ffffff;
+
+	list-style: none;
+
+}
+
+.footer-setting ul li {
+
+
+	font-size:20px;
+
+	transition: .3s;
+
+	cursor: pointer;
+
+}
+
+.footer-setting ul li:hover {
+
+	color:blue;
+
+}
+
+.footer-community ul {
+
+	color: #ffffff;
+
+	list-style: none;
+
+}
+
+.footer-community ul li {
+
+
+	font-size:20px;
+
+	transition: .3s;
+
+	cursor: pointer;
+
+}
+
+.footer-community ul li:hover {
+
+	color:blue;
+
+}
+
+.copy-right p {
+
+	color: #ffffff;
+
+    cursor: pointer;
+
+    text-align: end ;
+
+}
+
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+    #sidebar {
+
+        margin-left: -250px;
+
+    }
+
+    #sidebar.active {
+
+        margin-left: 0;
+
+    }
+
+    #sidebarCollapse span {
+
+        display: none;
+
+    }
+
+}
